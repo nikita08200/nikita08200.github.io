@@ -1,0 +1,690 @@
+/*Main section*/
+body {
+  font-size: 16px;
+  font-family: 'PFDinTextCompPro', sans-serif;
+}
+.main-logo img {
+  margin-top: 5px;
+  width: 170px;
+  height: 15px;
+}
+.main-head {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.main-menu {
+  margin-top: 5px;
+}
+.main-menu-list li {
+  display: inline-block;
+  list-style: none;
+  margin-right: 25px;
+}
+.main-menu-list li a {
+  text-decoration: none;
+  font-family: PFDinTextCompProMedium_0;
+  font-size: 16px;
+  list-style: none;
+  color: #333333;
+  padding-bottom: 10px;
+}
+.main-menu-list li a:hover {
+  -webkit-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+  border-bottom: 3px solid #6699cc;
+}
+.main-number p {
+  font-family: PFDinTextCompProMedium_0;
+  font-size: 20px;
+}
+.main-number p i {
+  color: #6699cc;
+  margin-right: 10px;
+}
+.main-email p {
+  font-family: PFDinTextCompProLight_0;
+  font-size: 20px;
+}
+.main-email p i {
+  margin-right: 10px;
+  color: #6699cc;
+}
+@keyframes menu {
+  0% {
+    padding-bottom: 10px;
+    border-bottom: 3px solid #6699cc;
+  }
+  100% {
+    padding-bottom: 10px;
+    border-bottom: 3px solid #6699cc;
+  }
+}
+.miiin {
+  background: url(../img/fon/fon1.JPG) no-repeat center center;
+  background-size: cover;
+  min-height: 769px;
+}
+.section-fon-left h1 {
+  z-index: 50;
+  margin-top: 130px;
+  font-family: PFDinTextCompProMedium_0 ;
+  font-size: 64px;
+  color: #333333;
+}
+.section-fon-left ul {
+  margin-top: 65px;
+  padding: 0;
+}
+.section-fon-left:hover {
+  margin-right: 10px;
+}
+.section-fon-left li {
+  list-style: none;
+  font-family: PFDinTextCompProThin;
+  font-size: 22px;
+}
+.section-fon-left li img {
+  margin-right: 10px;
+  width: 25px;
+}
+.section-fon-left button {
+  box-sizing: border-box;
+  margin-top: 65px;
+  border: none;
+  width: 270px;
+  height: 70px;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  -o-border-radius: 7px;
+  border-radius: 7px;
+  background-color: #6699cc;
+}
+.section-fon-left button:hover {
+  -webkit-box-shadow: 0 4px 20px 2px rgba(102, 153, 204, 0.6);
+  box-shadow: 0 4px 20px 2px rgba(102, 153, 204, 0.6);
+}
+.section-fon-left button span {
+  font-size: 23px;
+  font-family: PFDinTextCompProBold_0;
+  color: white;
+}
+.main-list li span:hover {
+  margin-left: 10px;
+  webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  transition: all 0.4s;
+}
+.section-fon-right img {
+  padding-top: 65%;
+  padding-right: 20%;
+}
+/*End Main section*/
+/*Start advantage section */
+#advantage {
+  background-color: #f8f8f8;
+}
+.section-header h2 {
+  font-family: PFDinTextCompProMedium_0;
+  font-size: 40px;
+  color: #333333;
+  margin-top: 120px;
+}
+.section-header .line {
+  display: inline-block;
+  width: 80px;
+  height: 3px;
+  background-color: #6699cc;
+}
+.advantage-box {
+  margin-top: 60px;
+  width: 300px;
+  height: 300px;
+  padding: 60px 90px 60px 90px;
+}
+.advantage-box:hover {
+  webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+  -webkit-box-shadow: 0px 0px 32px 0px rgba(51, 51, 51, 0.1);
+  box-shadow: 0px 0px 32px 0px rgba(51, 51, 51, 0.1);
+}
+.advantage-box .vintik {
+  margin-bottom: 45px;
+}
+.advantage-box img {
+  width: 65px;
+}
+.advantage-box h3 {
+  margin-top: 40px;
+  margin-bottom: 0;
+  font-family: PFDinTextCompProBold_0;
+  font-size: 30px;
+  color: #6699cc;
+}
+.advantage-box p {
+  font-family: PFDinTextCompProLight_0;
+  font-size: 20px;
+}
+/*END advantage section */
+/*Start skladi section*/
+#skladi {
+  margin-top: 120px;
+  background: url(../img/fon/fon2.JPG) no-repeat center center;
+  background-size: cover;
+  height: 90vh;
+}
+#skladi .main-list {
+  padding: 0;
+  margin-top: 60px;
+}
+#skladi .main-list li {
+  list-style: none;
+  font-family: PFDinTextCompProThin;
+  font-size: 22px;
+}
+#skladi .main-list li img {
+  margin-right: 10px;
+  width: 25px;
+}
+.skladi {
+  margin-bottom: 120px;
+}
+.skladi button {
+  box-sizing: border-box;
+  margin-top: 50px;
+  border: none;
+  width: 270px;
+  height: 70px;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  -o-border-radius: 7px;
+  border-radius: 7px;
+  background-color: #6699cc;
+}
+.skladi button:hover {
+  -webkit-box-shadow: 0px 0px 57px 0px rgba(20, 20, 21, 0.2);
+  box-shadow: 0px 0px 57px 0px rgba(20, 20, 21, 0.2);
+}
+.skladi button span {
+  font-size: 23px;
+  font-family: PFDinTextCompProBold_0;
+  color: white;
+}
+.sklad-box-1,
+.sklad-box-2 {
+  margin-top: 65px;
+  background-color: white;
+  height: 335px;
+  width: 49%;
+}
+.sklad-box-1 h4,
+.sklad-box-2 h4 {
+  padding: 40px;
+  font-family: PFDinTextCompProBold_0;
+  font-size: 26px;
+}
+.sklad-box-1 li,
+.sklad-box-2 li {
+  margin-bottom: 10px;
+  list-style: none;
+  font-family: PFDinTextCompProLight_0;
+  font-size: 20px;
+}
+.sklad-box-1 li span:hover,
+.sklad-box-2 li span:hover {
+  margin-left: 10px;
+  webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  transition: all 0.4s;
+}
+.sklad-box-1 img,
+.sklad-box-2 img {
+  margin-right: 10px;
+  width: 25px;
+}
+.sklad-box-1 {
+  margin-right: 2%;
+}
+/*End skladi section*/
+/*Start trubs section*/
+.trubs-box {
+  margin-top: 95px;
+}
+.trubs-box ul {
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 0;
+}
+.trubs-box ul li {
+  width: 215px;
+  height: 250px;
+  display: inline-block;
+  list-style: none;
+}
+.trubs-box ul li a {
+  color: #333333;
+  text-decoration: none;
+}
+.trubs-box ul li a:hover {
+  color: #6699cc;
+}
+.trubs-box ul li p {
+  font-family: PFDinTextCompProLight_0;
+  font-size: 20px;
+}
+.trubs-info {
+  padding: 0;
+  margin-top: 30px;
+}
+.trubs-info h3 {
+  font-family: PFDinTextCompProBold_0;
+  font-size: 32px;
+  color: #6699cc;
+}
+.trubs-info p {
+  font-family: PFDinTextCompProLight_0;
+  font-size: 20px;
+  color: #666666;
+}
+.trubs-list {
+  padding: 0;
+}
+.trubs-list h4 {
+  font-family: PFDinTextCompProBold_0;
+  font-size: 20px;
+}
+.trubs-list ul {
+  padding: 0px;
+}
+.trubs-list li {
+  margin-left: 20px;
+  font-family: PFDinTextCompProLight_0;
+  font-size: 20px;
+  color: #666666;
+}
+.trubs-list li:hover {
+  padding-left: 10px;
+  webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  transition: all 0.4s;
+}
+.trubs-buy {
+  padding: 0;
+  margin-top: 30px;
+}
+.trubs-buy img {
+  width: 370px;
+  height: 170px;
+}
+.trubs-buy img:hover {
+  opacity: 0.6;
+  webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.trubs-buy p {
+  margin-top: 30px;
+  font-family: PFDinTextCompProLight_0;
+  font-size: 20px;
+  color: #666666;
+}
+.trubs-buy h4 {
+  font-family: PFDinTextCompProBold_0;
+  font-size: 26px;
+}
+.trubs-buy button {
+  box-sizing: border-box;
+  margin-top: 5px;
+  border: none;
+  width: 270px;
+  height: 70px;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  -o-border-radius: 7px;
+  border-radius: 7px;
+  background-color: #6699cc;
+}
+.trubs-buy button:hover {
+  -webkit-box-shadow: 0 4px 20px 2px rgba(102, 153, 204, 0.9);
+  box-shadow: 0 4px 20px 2px rgba(102, 153, 204, 0.9);
+  webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.trubs-buy span {
+  font-size: 23px;
+  font-family: PFDinTextCompProBold_0;
+  color: white;
+}
+/*End trubs section*/
+/*Start fitings section*/
+.fitings-box {
+  box-sizing: border-box;
+  display: absolute;
+  margin-top: 100px;
+  height: 250px;
+}
+.fitings-box:hover {
+  webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+  -webkit-box-shadow: 0px 0px 32px 0px rgba(51, 51, 51, 0.4);
+  box-shadow: 0px 0px 32px 0px rgba(51, 51, 51, 0.4);
+}
+.fitings-box img {
+  float: left;
+  width: 60px;
+  margin-top: 40px;
+  margin-left: 40px;
+}
+.fitings-box h5 {
+  margin-top: 40px;
+  margin-left: 120px;
+  font-family: PFDinTextCompProMedium_0;
+  font-size: 20px;
+  color: #333333;
+}
+.fitings-box ul {
+  padding: 0px;
+  margin-left: 135px;
+}
+.fitings-box ul li {
+  font-family: PFDinTextCompProLight_0;
+  font-size: 18px;
+  color: #666666;
+}
+.fitings-box ul li p {
+  margin: 0;
+}
+.fitings-box ul li p:hover {
+  margin-left: 10px;
+  transition: 0.3s;
+}
+/*End fitings section*/
+/*Start vibor section*/
+.vibor {
+  padding: 0;
+}
+.vibor-box {
+  height: 350px;
+  margin-top: 100px;
+  padding: 60px 30px;
+}
+.vibor-box:hover {
+  webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+  -webkit-box-shadow: 0px 0px 32px 0px rgba(51, 51, 51, 0.5);
+  box-shadow: 0px 0px 32px 0px rgba(51, 51, 51, 0.5);
+}
+.vibor-box img {
+  margin-bottom: 20px;
+  height: 65px;
+}
+.vibor-box h3 {
+  font-family: PFDinTextCompProBold_0;
+  font-size: 20px;
+}
+.vibor-box p {
+  line-height: 1.2;
+  font-family: PFDinTextCompProLight_0;
+  font-size: 20px;
+  color: #666666;
+  text-align: center;
+}
+/*End vibor section*/
+/*Start footer*/
+#footer {
+  margin-top: 60px;
+  background-color: #333333;
+  padding-bottom: 60px;
+}
+.footer {
+  padding: 0;
+}
+.footer-skladi ul {
+  margin-top: 60px;
+}
+.footer-skladi ul li {
+  margin-bottom: 30px;
+  list-style: none;
+}
+.footer-skladi ul li .circle {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  background-color: #cccccc;
+  text-align: center;
+  line-height: 25px;
+}
+.footer-skladi ul li .circle i {
+  font-size: 15px;
+}
+.footer-greytext {
+  color: #999999;
+  font-family: PFDinTextCompProLight_0;
+  font-size: 18px;
+  margin-left: 10px;
+}
+.footer-whitetext {
+  margin-left: 39px;
+  color: white;
+  font-family: PFDinTextCompProLight_0;
+  font-size: 20px;
+}
+.footer-whitetext-inn {
+  margin-left: 10px;
+  color: white;
+  font-family: PFDinTextCompProLight_0;
+  font-size: 20px;
+}
+.main-form {
+  margin-top: 60px;
+}
+.main-form h3 {
+  color: white;
+  font-family: PFDinTextCompProBold_0;
+  font-size: 22px;
+}
+.main-form input,
+.main-form textarea {
+  width: 100%;
+  height: 50px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  border: none;
+  margin-top: 10px;
+  padding: 20px;
+  font-family: PFDinTextCompProLight_0;
+  font-size: 16px;
+}
+.main-form textarea {
+  height: 100px;
+}
+.main-form button {
+  width: 100%;
+  height: 50px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  border: none;
+  margin-top: 10px;
+  background-color: #6699cc;
+  font-family: PFDinTextCompProMedium_0;
+  font-size: 16px;
+  color: white;
+}
+.main-form button:hover {
+  -webkit-box-shadow: 0 4px 20px 2px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 4px 20px 2px rgba(0, 0, 0, 0.3);
+}
+.back-call {
+  text-decoration: underline;
+  color: white;
+  font-family: PFDinTextCompProLight_0;
+  font-size: 18px;
+  padding-left: 40px;
+}
+.back-call:hover {
+  background: none;
+}
+/*End footer*/
+/*MODALS*/
+.modal {
+  left: 15%;
+  top: -15%;
+}
+.modal-content {
+  width: 370px;
+  height: 360px;
+  top: 200px;
+  text-align: center;
+}
+.modal-header {
+  padding-top: 40px;
+  border: none;
+}
+.modal-header .close {
+  position: relative;
+  left: 35px;
+  top: -65px;
+}
+.modal-header .close span {
+  font-size: 16px;
+  color: #ffffff;
+}
+.modal-header .close span:hover {
+  color: #ffffff;
+}
+.modal-header h4 {
+  font-family: PFDinTextCompProBold_0;
+  font-size: 22px;
+  color: #333333;
+}
+.modal-header span {
+  font-family: PFDinTextCompProLight_0;
+  font-size: 16px;
+}
+.modal-footer {
+  border: none;
+}
+.modal-body .modal-form input {
+  width: 270px;
+  height: 50px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  border: none;
+  margin-top: 10px;
+  padding: 20px;
+  font-family: PFDinTextCompProLight_0;
+  font-size: 16px;
+}
+.modal-body .modal-form button {
+  width: 270px;
+  height: 50px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  border: none;
+  margin-top: 10px;
+  background-color: #6699cc;
+  font-family: PFDinTextCompProMedium_0;
+  font-size: 16px;
+  color: white;
+}
+.modal-body .modal-form button:hover {
+  -webkit-box-shadow: 0 4px 20px 2px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 4px 20px 2px rgba(0, 0, 0, 0.3);
+}
+.modal-img {
+  width: 200px;
+}
+@font-face {
+  font-family: 'PFDinTextCompProBold_0';
+  src: url('../fonts/fonts/PFDinTextCompProBold_0.eot');
+  src: url('../fonts/fonts/PFDinTextCompProBold_0.eot') format('embedded-opentype'), url('../fonts/fonts/PFDinTextCompProBold_0.woff2') format('woff2'), url('../fonts/fonts/PFDinTextCompProBold_0.woff') format('woff'), url('../fonts/fonts/PFDinTextCompProBold_0.ttf') format('truetype'), url('../fonts/fonts/PFDinTextCompProBold_0.svg#PFDinTextCompProBold_0') format('svg');
+}
+@font-face {
+  font-family: 'PFDinTextCompProLightItalic';
+  src: url('../fonts/fonts/PFDinTextCompProLightItalic.eot');
+  src: url('../fonts/fonts/PFDinTextCompProLightItalic.eot') format('embedded-opentype'), url('../fonts/fonts/PFDinTextCompProLightItalic.woff2') format('woff2'), url('../fonts/fonts/PFDinTextCompProLightItalic.woff') format('woff'), url('../fonts/fonts/PFDinTextCompProLightItalic.ttf') format('truetype'), url('../fonts/fonts/PFDinTextCompProLightItalic.svg#PFDinTextCompProLightItalic') format('svg');
+}
+@font-face {
+  font-family: 'PFDinTextCompProMedium_0';
+  src: url('../fonts/fonts/PFDinTextCompProMedium_0.eot');
+  src: url('../fonts/fonts/PFDinTextCompProMedium_0.eot') format('embedded-opentype'), url('../fonts/fonts/PFDinTextCompProMedium_0.woff2') format('woff2'), url('../fonts/fonts/PFDinTextCompProMedium_0.woff') format('woff'), url('../fonts/fonts/PFDinTextCompProMedium_0.ttf') format('truetype'), url('../fonts/fonts/PFDinTextCompProMedium_0.svg#PFDinTextCompProMedium_0') format('svg');
+}
+@font-face {
+  font-family: 'PFDinTextCompProLight_0';
+  src: url('../fonts/fonts/PFDinTextCompProLight_0.eot');
+  src: url('../fonts/fonts/PFDinTextCompProLight_0.eot') format('embedded-opentype'), url('../fonts/fonts/PFDinTextCompProLight_0.woff2') format('woff2'), url('../fonts/fonts/PFDinTextCompProLight_0.woff') format('woff'), url('../fonts/fonts/PFDinTextCompProLight_0.ttf') format('truetype'), url('../fonts/fonts/PFDinTextCompProLight_0.svg#PFDinTextCompProLight_0') format('svg');
+}
+@font-face {
+  font-family: 'PFDinTextCompProThin';
+  src: url('../fonts/fonts/PFDinTextCompProThin.eot');
+  src: url('../fonts/fonts/PFDinTextCompProThin.eot') format('embedded-opentype'), url('../fonts/fonts/PFDinTextCompProThin.woff2') format('woff2'), url('../fonts/fonts/PFDinTextCompProThin.woff') format('woff'), url('../fonts/fonts/PFDinTextCompProThin.ttf') format('truetype'), url('../fonts/fonts/PFDinTextCompProThin.svg#PFDinTextCompProThin') format('svg');
+}
+@font-face {
+  font-family: 'PFDinTextCompProXBlack';
+  src: url('../fonts/fonts/PFDinTextCompProXBlack.eot');
+  src: url('../fonts/fonts/PFDinTextCompProXBlack.eot') format('embedded-opentype'), url('../fonts/fonts/PFDinTextCompProXBlack.woff2') format('woff2'), url('../fonts/fonts/PFDinTextCompProXBlack.woff') format('woff'), url('../fonts/fonts/PFDinTextCompProXBlack.ttf') format('truetype'), url('../fonts/fonts/PFDinTextCompProXBlack.svg#PFDinTextCompProXBlack') format('svg');
+}
+@font-face {
+  font-family: 'PFDinTextCompProXBlackItalic';
+  src: url('../fonts/fonts/PFDinTextCompProXBlackItalic.eot');
+  src: url('../fonts/fonts/PFDinTextCompProXBlackItalic.eot') format('embedded-opentype'), url('../fonts/fonts/PFDinTextCompProXBlackItalic.woff2') format('woff2'), url('../fonts/fonts/PFDinTextCompProXBlackItalic.woff') format('woff'), url('../fonts/fonts/PFDinTextCompProXBlackItalic.ttf') format('truetype'), url('../fonts/fonts/PFDinTextCompProXBlackItalic.svg#PFDinTextCompProXBlackItalic') format('svg');
+}
+@font-face {
+  font-family: 'PFDinTextCompProMediumItalic';
+  src: url('../fonts/fonts/PFDinTextCompProMediumItalic.eot');
+  src: url('../fonts/fonts/PFDinTextCompProMediumItalic.eot') format('embedded-opentype'), url('../fonts/fonts/PFDinTextCompProMediumItalic.woff2') format('woff2'), url('../fonts/fonts/PFDinTextCompProMediumItalic.woff') format('woff'), url('../fonts/fonts/PFDinTextCompProMediumItalic.ttf') format('truetype'), url('../fonts/fonts/PFDinTextCompProMediumItalic.svg#PFDinTextCompProMediumItalic') format('svg');
+}
+@font-face {
+  font-family: 'PFDinTextCompProXThin';
+  src: url('../fonts/fonts/PFDinTextCompProXThin.eot');
+  src: url('../fonts/fonts/PFDinTextCompProXThin.eot') format('embedded-opentype'), url('../fonts/fonts/PFDinTextCompProXThin.woff2') format('woff2'), url('../fonts/fonts/PFDinTextCompProXThin.woff') format('woff'), url('../fonts/fonts/PFDinTextCompProXThin.ttf') format('truetype'), url('../fonts/fonts/PFDinTextCompProXThin.svg#PFDinTextCompProXThin') format('svg');
+}
+@font-face {
+  font-family: 'PFDinTextCompProRegular';
+  src: url('../fonts/fonts/PFDinTextCompProRegular.eot');
+  src: url('../fonts/fonts/PFDinTextCompProRegular.eot') format('embedded-opentype'), url('../fonts/fonts/PFDinTextCompProRegular.woff2') format('woff2'), url('../fonts/fonts/PFDinTextCompProRegular.woff') format('woff'), url('../fonts/fonts/PFDinTextCompProRegular.ttf') format('truetype'), url('../fonts/fonts/PFDinTextCompProRegular.svg#PFDinTextCompProRegular') format('svg');
+}
+@font-face {
+  font-family: 'PFDinTextCompProXThinItalic';
+  src: url('../fonts/fonts/PFDinTextCompProXThinItalic.eot');
+  src: url('../fonts/fonts/PFDinTextCompProXThinItalic.eot') format('embedded-opentype'), url('../fonts/fonts/PFDinTextCompProXThinItalic.woff2') format('woff2'), url('../fonts/fonts/PFDinTextCompProXThinItalic.woff') format('woff'), url('../fonts/fonts/PFDinTextCompProXThinItalic.ttf') format('truetype'), url('../fonts/fonts/PFDinTextCompProXThinItalic.svg#PFDinTextCompProXThinItalic') format('svg');
+}
+@font-face {
+  font-family: 'PFDinTextCompProThinItalic';
+  src: url('../fonts/fonts/PFDinTextCompProThinItalic.eot');
+  src: url('../fonts/fonts/PFDinTextCompProThinItalic.eot') format('embedded-opentype'), url('../fonts/fonts/PFDinTextCompProThinItalic.woff2') format('woff2'), url('../fonts/fonts/PFDinTextCompProThinItalic.woff') format('woff'), url('../fonts/fonts/PFDinTextCompProThinItalic.ttf') format('truetype'), url('../fonts/fonts/PFDinTextCompProThinItalic.svg#PFDinTextCompProThinItalic') format('svg');
+}
+@font-face {
+  font-family: 'PFDinTextCompProItalic';
+  src: url('../fonts/fonts/PFDinTextCompProItalic.eot');
+  src: url('../fonts/fonts/PFDinTextCompProItalic.eot') format('embedded-opentype'), url('../fonts/fonts/PFDinTextCompProItalic.woff2') format('woff2'), url('../fonts/fonts/PFDinTextCompProItalic.woff') format('woff'), url('../fonts/fonts/PFDinTextCompProItalic.ttf') format('truetype'), url('../fonts/fonts/PFDinTextCompProItalic.svg#PFDinTextCompProItalic') format('svg');
+}
+@font-face {
+  font-family: 'PFDinTextCompProBoldItalic';
+  src: url('../fonts/fonts/PFDinTextCompProBoldItalic.eot');
+  src: url('../fonts/fonts/PFDinTextCompProBoldItalic.eot') format('embedded-opentype'), url('../fonts/fonts/PFDinTextCompProBoldItalic.woff2') format('woff2'), url('../fonts/fonts/PFDinTextCompProBoldItalic.woff') format('woff'), url('../fonts/fonts/PFDinTextCompProBoldItalic.ttf') format('truetype'), url('../fonts/fonts/PFDinTextCompProBoldItalic.svg#PFDinTextCompProBoldItalic') format('svg');
+}
