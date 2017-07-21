@@ -645,19 +645,18 @@ padding-bottom: 60px;
 }
 
 &-header{
-	padding-top: 40px;
+	
 	border:none;
-	.close{
-		position: relative;
-		left:35px;
-		top:-65px;
-
+	.closes{
+		border:0;
+		background-color: white;
 		span{
-			font-size: 16px;
-			color:#ffffff;
-			&:hover{
-				color:#ffffff;
-			}
+			position:absolute;
+			top:10px;
+			right:15px;
+			font-size: 20px;
+			font-family: PFDinTextCompProBold_0;
+			color:black;
 
 		}
 	}
@@ -715,6 +714,9 @@ padding-bottom: 60px;
 	width:200px;
 }
 
+}
+#modal-thanks{
+	
 }
 
 
@@ -816,7 +818,12 @@ button{
     padding: 0;
     text-align: center;
 	}
-}}
+}
+.modal{
+	left:5%;
+	top:-15%;
+}
+}
 @media (min-width: 481px) and (max-width: 767px){
 
 }
@@ -841,6 +848,7 @@ button{
 		margin-top: 30px;
 		font-size: 20px;
 	}
+
 }
 @media (min-width: 992px) and (max-width: 1199px){
 
