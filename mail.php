@@ -10,7 +10,6 @@ $to = "nikita1bogdan@gmail.com";
 $subject = "Заявка с сайта";
 // Сообщение письма
 $message = "
-Форма которую заполнил клиент: ".htmlspecialchars($whatever)."<br />
 Имя пользователя: ".htmlspecialchars($username)."<br />
 Email: ".htmlspecialchars($email)."<br />
 Сообщение: ".htmlspecialchars($user_message);
