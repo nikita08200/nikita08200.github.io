@@ -11,8 +11,8 @@
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<header class="main">
-	<div id="header" class="container">
+<header id="header" class="main">
+	<div  class="container">
 		<div class="row main-head">
 			<div class="col-lg-2 col-md-2 col-sm- 2 col-xs-12  main-logo text-center">
 				<span><img src="img/logo/logo.png" alt=""></span>
@@ -32,7 +32,7 @@
 			<div class="col-lg-2 col-md-2 col-sm- 3 col-xs-6 main-email text-center">
 			<p><i class="fa fa-envelope "></i>set-iset@set-iset.ru</p></div>
 	</div></div>
-	
+	</header>
 <section id="miiin" class="miiin">
 	<div class="container">
 		<div class="row">
@@ -122,7 +122,7 @@
 					</ul>
 			</div>
 			<div class="col-lg-4 text-center col-sm-12 col-xs-12">
-				<button><span>ЗАКАЗАТЬ</span></button>
+				<button data-toggle="modal" data-target="#modal-1"><span>ЗАКАЗАТЬ</span></button>
 			</div>
 		</div>
 			<div class="row sklad-box">
@@ -594,7 +594,7 @@
 		<div class="col-lg-3 col-lg-offset-2 col-md-4 col-sm-12 col-sm-offset-0 col-xs-10 col-xs-offset-1">
 		<div class="main-form">
 			<h3>НАПИШИТЕ НАМ</h3>
-			<form action="">
+			<form action="mail.php" method="POST">
 				<input id="userName" type="text" name="username" placeholder="Ваше имя ...">
 				<input id="phone" type="tel" name="email"  placeholder="Ваш e-mail ...">
 				<textarea name="user_message" placeholder='Ваш вопрос ...'  rows="3"></textarea> 
@@ -619,7 +619,7 @@
       <div class="modal-body text-center">
         <form action="" class="modal-form ">
 				<input id="userName" type="text" name="username" placeholder="Ваше имя ...">
-				<input id="phone" type="tel" name="email"  placeholder="Ваш e-mail ...">
+				<input id="phone" type="email" name="email"  placeholder="Ваш e-mail ...">
 				<button id="submit-form" class="main-form-btn" type="submit"><span>Оставить заявку</span></button>
 			</form>
       </div>
@@ -672,5 +672,20 @@ $(document).ready(function(){
 	});
 });
 </script>
+<script type="text/javascript">
+		$(document).ready(function(){
+			// Фикмированная шапка при скролле
+			$("#header").removeClass("default");
+			$(window).scroll(function(){
+				if ($(this).scrollTop() > 768) {
+					$("#header").addClass("default").fadeIn('slow');
+				} else  {
+					$("#header").removeClass("default").fadeIn('slow');
+				};
+			});
+		});
+
+	</script>
+
 </body>
 </html>

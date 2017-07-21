@@ -8,6 +8,16 @@ body {
   width: 170px;
   height: 15px;
 }
+#header {
+  position: static;
+  z-index: 999;
+}
+#header.default {
+  position: fixed;
+  width: 100%;
+  background-color: white;
+  top: 0;
+}
 .main-head {
   padding-top: 25px;
   padding-bottom: 25px;
@@ -545,6 +555,7 @@ body {
 /*End footer*/
 /*MODALS*/
 .modal {
+  z-index: 9990;
   left: 15%;
   top: -15%;
 }
@@ -671,6 +682,25 @@ body {
     text-align: center;
     margin-top: 30px;
     font-size: 20px;
+  }
+  .modal-content {
+    width: 300px;
+  }
+  .modal h4 {
+    font-size: 18px;
+  }
+  .modal-body .modal-form input {
+    text-align: left;
+    width: 220px;
+    height: 50px;
+    padding: 0;
+  }
+  .modal-body .modal-form button {
+    text-align: left;
+    width: 220px;
+    height: 50px;
+    padding: 0;
+    text-align: center;
   }
 }
 @media (min-width: 768px) and (max-width: 991px) {
