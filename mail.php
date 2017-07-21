@@ -18,6 +18,6 @@ Email: ".htmlspecialchars($email)."<br />
 $headers = "From: https://nikita08200.github.io <nikita61511@gmail.com>\r\nContent-type: text/html; charset=UTF-8 \r\n";
 mail ($to, $subject, $message, $headers);
 // Перенаправляем человека на страницу благодарности и завершаем скрипт
-header('Location: https://nikita08200.github.io');
+header('Location: thanks.html');
 exit();
 ?>
