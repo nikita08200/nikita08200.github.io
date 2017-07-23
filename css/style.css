@@ -6,6 +6,9 @@ body {
 .main-nav {
   display: none;
 }
+.main-overlay {
+  display: none;
+}
 .main-logo img {
   margin-top: 5px;
   width: 170px;
