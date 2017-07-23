@@ -16,10 +16,15 @@
 <header id="header"  class="main ">
 	<div  class="container">
 		<div class="row main-head ">
-			<div class="col-lg-2 col-md-2 col-sm- 2 col-xs-12  main-logo text-center">
+			<div class="col-lg-2 col-md-2 col-sm-5 col-sm-offset-0 col-xs-6 col-xs-offset-0 main-logo text-center">
 				<span><img src="img/logo/logo.png" alt=""></span>
 			</div>
-			<div class="col-lg-6 col-md-6 col-sm- 7 col-xs-12 main-menu text-center">
+			<div class="col-xs-6  main-nav">
+				<a class="main-nav-bar" href="#">
+					<span class="line-nav"></span>
+				</a></div>
+
+			<div class="col-lg-6 col-md-6 col-sm- 7 col-sm-offset-0 main-menu text-center">
 				<ul id="list-menu" class="main-menu-list">
 					<li><a  href="#miiin">ГЛАВНАЯ</a></li>
 					<li><a href="#advantage">О НАС</a></li>
@@ -28,10 +33,11 @@
 					<li><a href="#footer">КОНТАКТЫ</a></li>
 				</ul>
 				</div>
-			<div class="col-lg-2 col-md-2 col-sm- 3 col-xs-6 main-number text-center">
+				
+			<div class="col-lg-2 col-md-2 col-sm-6 col-xs-12 main-number text-center">
 				<p> <i class="fa fa-fone">&#xf095;</i>(343) 344-85-85</p>
 			</div>	
-			<div class="col-lg-2 col-md-2 col-sm- 3 col-xs-6 main-email text-center">
+			<div class="col-lg-2 col-md-2 col-sm-6 col-xs-12 main-email text-center">
 			<p><i class="fa fa-envelope "></i>set-iset@set-iset.ru</p></div>
 	</div></div>
 	</header>
@@ -653,7 +659,22 @@
   </div>
 </div>
 
+<div class="overlay-nav">
+	<span class="close-nav">&times;</span>
+		<ul>
+			<li><a href="#miiin">ГЛАВНАЯ</a></li>
+			<li><a href="#advantage">О НАС</a></li>
+			<li><a href="#trubs">ВИДЫ ТРУБ</a></li>
+			<li><a href="#vibor">ПРЕИМУЩЕСТВА</a></li>
+			<li><a href="#footer">КОНТАКТЫ</a></li>
+		</ul>
+</div>
 
+<li><a  href="#miiin">ГЛАВНАЯ</a></li>
+					<li><a href="#advantage">О НАС</a></li>
+					<li><a href="#trubs">ВИДЫ ТРУБ</a></li>
+					<li><a href="#vibor">ПРЕИМУЩЕСТВА</a></li>
+					<li><a href="#footer">КОНТАКТЫ</a></li>
 
 
 
@@ -708,6 +729,18 @@ $(document).ready(function(){
 		});
 
 	</script>
+<script>
+		$(document).ready(function(){
+			var $nav = $('a.main-nav-bar');
+			var $exit = $('span.close-nav');
+			$nav.click(function(){
+				$('.overlay-nav').show();
+			})
+			$exit.click(function(){
+				$('.overlay-nav').hide();
+			})
 
+		})
+</script>
 </body>
 </html>
